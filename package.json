@@ -1,0 +1,21 @@
+{
+  "name": "protobuf2types",
+  "version": "1.0.0",
+  "description": "Google Protobuffer file(s) to Typescript Types",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "install": "tsc"
+  },
+  "repository": "https://github.com/boba-ps/protobuf2types",
+  "author": "quinella <98860103+quinelladesuu@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "commander": "^9.1.0",
+    "pbts": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
